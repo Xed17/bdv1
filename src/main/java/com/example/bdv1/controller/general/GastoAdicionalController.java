@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/gastos-adicionales")
+@RequestMapping("/gastosadicionales")
 public class GastoAdicionalController {
     private final GastoAdicionalService gastoAdicionalService;
 

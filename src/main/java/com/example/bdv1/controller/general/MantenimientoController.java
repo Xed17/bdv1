@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/mantenimientos")
+@RequestMapping("/mantenimientos")
 public class MantenimientoController {
     private final MantenimientoService mantenimientoService;
 

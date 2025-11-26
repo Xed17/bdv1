@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/tipo-docs")
+@RequestMapping("/tipodocs")
 public class TipoDocController {
     private final TipoDocService tipoDocService;
 
